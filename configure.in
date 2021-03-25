@@ -25,7 +25,7 @@ fi
 if test -z "$PKG_CPPFLAGS" ; then
 
   if test -z "$FFTW3_DIR" ; then
-    FFTW3_DIR=/usr/local
+    FFTW3_DIR=/usr
   fi
 
   echo "Looking for fftw3 files in $FFTW3_DIR"
